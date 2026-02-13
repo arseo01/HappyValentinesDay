@@ -186,14 +186,14 @@ h1, h2, h3, h4, h5, h6, p {
         opacity: 0;
     }
     to {
-        top: -800px;
+        top: -80vh;
         opacity: 1;
     }
 }
 
 @keyframes message_hide {
     from {
-        top: -800px;
+        top: -80vh;
         opacity: 1;
     }
     to {
