@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 #card {
     position: relative;
-    top: 150px;
+    top: 100px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 @keyframes card_open {
     from {
-        top: 150px;
+        top: 100px;
     }
     to {
         top: 500px;
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6, p {
         top: 500px;
     }
     to {
-        top: 150px;
+        top: 100px;
     }
 }
 
@@ -185,14 +185,14 @@ h1, h2, h3, h4, h5, h6, p {
         opacity: 0;
     }
     to {
-        top: -550px;
+        top: -430px;
         opacity: 1;
     }
 }
 
 @keyframes message_hide {
     from {
-        top: -550px;
+        top: -430px;
         opacity: 1;
     }
     to {
