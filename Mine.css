@@ -31,13 +31,13 @@ h1, h2, h3, h4, h5, h6, p {
         top: 150px;
     }
     to {
-        top: 420px;
+        top: 460px;
     }
 }
 
 @keyframes card_close {
     from {
-        top: 420px;
+        top: 460px;
     }
     to {
         top: 150px;
