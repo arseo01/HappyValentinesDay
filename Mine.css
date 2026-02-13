@@ -184,12 +184,12 @@ h1, h2, h3, h4, h5, h6, p {
     from {
         top: -170px;
         opacity: 0;
-        z-index: 0;
+        z-index: 1;
     }
     to {
         top: -80vh;
         opacity: 1;
-        z-index: 1;
+        z-index: 2;
     }
 }
 
@@ -197,12 +197,12 @@ h1, h2, h3, h4, h5, h6, p {
     from {
         top: -80vh;
         opacity: 1;
-        z-index: 1;
+        z-index: 2;
     }
     to {
         top: -170px;
         opacity: 0;
-        z-index: 0;
+        z-index: 1;
     }
 }
 
