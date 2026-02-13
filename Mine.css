@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6, p {
     transform: translateX(-50%);
     top: -200px;
     width: 85%;
-    background: #ffffff;
+    background: #2f00ff; /*1a1434*/
     padding: 20px;
     border-radius: 25px;
     z-index: 1;
@@ -185,14 +185,14 @@ h1, h2, h3, h4, h5, h6, p {
         opacity: 0;
     }
     to {
-        top: -480px;
+        top: -550px;
         opacity: 1;
     }
 }
 
 @keyframes message_hide {
     from {
-        top: -480px;
+        top: -550px;
         opacity: 1;
     }
     to {
