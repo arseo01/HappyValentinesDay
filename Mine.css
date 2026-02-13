@@ -31,13 +31,13 @@ h1, h2, h3, h4, h5, h6, p {
         top: 150px;
     }
     to {
-        top: 460px;
+        top: 500px;
     }
 }
 
 @keyframes card_close {
     from {
-        top: 460px;
+        top: 500px;
     }
     to {
         top: 150px;
@@ -185,14 +185,14 @@ h1, h2, h3, h4, h5, h6, p {
         opacity: 0;
     }
     to {
-        top: -450px;
+        top: -480px;
         opacity: 1;
     }
 }
 
 @keyframes message_hide {
     from {
-        top: -450px;
+        top: -480px;
         opacity: 1;
     }
     to {
