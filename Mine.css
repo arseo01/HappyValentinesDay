@@ -31,13 +31,13 @@ h1, h2, h3, h4, h5, h6, p {
         top: 100px;
     }
     to {
-        top: 600px;
+        top: 450px;
     }
 }
 
 @keyframes card_close {
     from {
-        top: 600px;
+        top: 450px;
     }
     to {
         top: 100px;
@@ -160,12 +160,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #message {
-    position: inherit;
+    position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, 0);
     top: -170px;
     width: 85%;
-    background: #1a1434; /*1a1434*/
+    background: #1a1434;
     padding: 20px;
     border-radius: 25px;
     z-index: 1;
@@ -173,36 +173,32 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #message.show {
-    animation: message_show 1s forwards;
+    animation: message_show 0.8s forwards;
 }
 
 #message.hide {
-    animation: message_hide 1s forwards;
+    animation: message_hide 0.8s forwards;
 }
 
 @keyframes message_show {
     from {
-        top: -170px;
+        transform: translate(-50%, 0);
         opacity: 0;
-        z-index: 1;
     }
     to {
-        top: -80vh;
+        transform: translate(-50%, -260px);
         opacity: 1;
-        z-index: 2;
     }
 }
 
 @keyframes message_hide {
     from {
-        top: -80vh;
+        transform: translate(-50%, -260px);
         opacity: 1;
-        z-index: 2;
     }
     to {
-        top: -170px;
+        transform: translate(-50%, 0);
         opacity: 0;
-        z-index: 1;
     }
 }
 
